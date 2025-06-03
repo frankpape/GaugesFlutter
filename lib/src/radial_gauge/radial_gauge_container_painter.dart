@@ -199,7 +199,7 @@ class RenderRadialGaugeContainer extends RenderBox {
 
     final Paint containerPaint = Paint()
       ..color = getRadialGauge.track.color
-      ..strokeCap = StrokeCap.round
+      ..strokeCap = getRadialGauge.strokeCap
       ..strokeWidth = thickness
       ..style = PaintingStyle.stroke;
 
