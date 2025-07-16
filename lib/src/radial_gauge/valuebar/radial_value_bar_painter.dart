@@ -128,7 +128,7 @@ class RenderRadialValueBar extends RenderBox {
     double arcLength = endAngle - startAngle;
     double shortestSide = size.shortestSide;
     double radius = (shortestSide / 2.0 -
-            getRadialGauge.track.thickness -
+            getRadialGauge.track.thickness / 2.0 -
             getRadialOffset) *
         getRadialGauge.radiusFactor;
 
